@@ -44,7 +44,7 @@ export default function Home() {
             </div>
           </div>
           <div className="w-full md:w-1/2 px-5">
-            <h3 className="text-3xl font-dense py-1">Services I Offer</h3>
+            <h3 className="text-3xl font-dense py-1">Services</h3>
             <p className="text-md py-2 leading-2 font-extralight text-gray-700">
               I offer a range of web development services to help businesses and individuals establish an online presence or improve their existing web applications.
             </p>
