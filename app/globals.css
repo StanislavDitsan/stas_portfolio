@@ -28,3 +28,8 @@ a {
   font-family: "Dense-Regular";
   src: url("../public/Dense-Regular.otf");
 }
+
+img {
+  display: inline-block;
+  background: none;
+}
