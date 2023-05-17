@@ -32,7 +32,7 @@ export default function About() {
                         <Image src="/stas-avatar.png" alt="Stas Avatar" width={300} height={300} />
                     </div>
                     <h3 className="text-3xl font-dense py-5">About Me</h3>
-                    <div className="font-light">
+                    <div className="font-light mb-5">
                         <p>I am a motivated and versatile professional with a background in physical education, economics and personnel management. While my previous experiences have been fulfilling, I have long been drawn to the rapidly-evolving field of software development. As a result, I pursued a professional degree in Full-Stack Software Development, where I am honing my talents in web development, programming, and other cutting-edge technologies.</p>
                         <br />
                         <p>As a manager and social media manager, I possess a diverse skillset that includes team leadership, customer service, marketing, and content creation. I have honed my communication skills by providing English-speaking customer support and managing social media accounts with thousands of followers. I'm proficient in HTML and CSS and knowledgeable in SEO techniques, and I'm eager to continue expanding my technical knowledge.
@@ -44,6 +44,8 @@ export default function About() {
                         <br />
                         <p>If you are looking for someone who can bring value to your organization and deliver results, I would love to connect and explore potential opportunities.</p>
                     </div>
+
+                    <a className="bg-gray-500 hover:bg-gradient-to-b from-blue-700 to-blue-500  text-white px-4 py-2 rounded-md font-dense text-center" href="https://formsubmit.co/el/bikoge" target="_blank">Send Message</a>
 
                 </section>
             </main>
