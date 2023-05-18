@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from 'next/link';
 
 
-
 export default function Home() {
   const projects = [
     {
@@ -68,6 +67,11 @@ export default function Home() {
               <Link href="/about" legacyBehavior>
                 <a className="bg-gradient-to-b from-blue-700 to-blue-500 text-white px-4 py-2 ml-8 rounded-md font-dense">About Me</a>
               </Link>
+              
+                <a href="public/resume.pdf" target="_blank" rel="noopener noreferrer" className="bg-gray-500 hover:bg-blue-700 text-white px-4 py-2 rounded-md font-dense">
+                  View CV
+                </a>
+              
             </ul>
           </nav>
           <div className="p-10 text-center">
